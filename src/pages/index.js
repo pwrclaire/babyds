@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const UC = () => {
   return (
     <Layout>
-      <Helmet title="Generic Page Title" />
+      <Helmet title="Baby D's Home" />
       <Header />
 
       <section id="content" className="main center-text">
