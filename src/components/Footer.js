@@ -22,7 +22,7 @@ const Footer = props => (
         <dt>Daycare</dt>
         <dd>604-829-3521</dd>
         <dt>Grooming</dt>
-        <dd>604-829-3521</dd>
+        <dd>604-652-6862</dd>
       </dl>
       <ul className="icons">
         <li>
