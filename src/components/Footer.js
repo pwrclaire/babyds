@@ -19,8 +19,10 @@ const Footer = props => (
       <dl className="alt">
         <dt>Address</dt>
         <dd>#29-11 W Broadway &bull; Vancouver, B.C &bull; V6H 1E6</dd>
-        <dt>Phone</dt>
-        <dd>604-930-3423</dd>
+        <dt>Daycare</dt>
+        <dd>604-829-3521</dd>
+        <dt>Grooming</dt>
+        <dd>604-829-3521</dd>
       </dl>
       <ul className="icons">
         <li>

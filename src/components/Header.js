@@ -11,9 +11,9 @@ const Header = props => (
 
     <h1>Baby D's Home</h1>
     <span>
-      Day care: 604-930-3423
+      Day care: 604-829-3521
       <br />
-      Grooming: 604-122-3423
+      Grooming: 604-652-6862
     </span>
   </header>
 )
