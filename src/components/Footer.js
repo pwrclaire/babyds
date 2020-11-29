@@ -7,7 +7,7 @@ const Footer = props => (
       <table>
         <tr>
           <th>
-            <h3><b>DayCare</b></h3>
+            <h3><b>Daycare</b></h3>
             <ul>
           <li>Monday: 7-6:30</li>
           <li>Tuesday: 7-6:30</li>
