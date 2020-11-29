@@ -4,15 +4,34 @@ const Footer = props => (
   <footer id="footer">
     <section>
       <h2>Hours of Operation</h2>
-      <ul className="info">
-        <li>Monday: 7-6:30</li>
-        <li>Tuesday: 7-6:30</li>
-        <li>Wednesday: 7-6:30</li>
-        <li>Thursday: 7-6:30</li>
-        <li>Friday: 7-6:30</li>
-        <li>Saturday: 9-5</li>
-        <li>Sunday: 9-5</li>
-      </ul>
+      <table>
+        <tr>
+          <th>
+            <h3><b>DayCare</b></h3>
+            <ul>
+          <li>Monday: 7-6:30</li>
+          <li>Tuesday: 7-6:30</li>
+          <li>Wednesday: 7-6:30</li>
+          <li>Thursday: 7-6:30</li>
+          <li>Friday: 7-6:30</li>
+          <li>Saturday: 9-5</li>
+          <li>Sunday: 9-5</li>
+        </ul>
+          </th>
+          <th>
+            <h4><b>Grooming</b></h4>
+          <ul>
+          <li>Monday: 9-5</li>
+          <li>Tuesday: 9-5</li>
+          <li>Wednesday: 9-5</li>
+          <li>Thursday: 9-5</li>
+          <li>Friday: 9-5</li>
+          <li>Saturday: 9-5</li>
+          <li>Sunday: 9-5</li>
+        </ul>
+          </th>
+        </tr>
+      </table>
     </section>
     <section>
       <h2>Information</h2>
