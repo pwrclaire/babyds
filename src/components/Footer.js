@@ -37,7 +37,7 @@ const Footer = props => (
       <h2>Information</h2>
       <dl className="alt">
         <dt>Address</dt>
-        <dd>#29-11 W Broadway &bull; Vancouver, B.C &bull; V6H 1E6</dd>
+        <dd>29 W Broadway &bull; Vancouver, B.C &bull; V6H 1E6</dd>
         <dt>Daycare</dt>
         <dd>604-829-3521</dd>
         <dt>Grooming</dt>
