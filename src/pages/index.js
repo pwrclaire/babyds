@@ -22,7 +22,7 @@ const Index = () => {
 
   return (
     <Layout>
-      <Helmet title="Gatsby Starter - Stellar" />
+      <Helmet title="Baby D's Home" />
       <Header />
       <Waypoint
         onEnter={() => setStickyNav(false)}
