@@ -91,12 +91,11 @@ const Index = () => {
           </div>
           <h2>Daycare In take Process: </h2>
           <p>
-            To ensure a safe and enjoyable environment, our daycare caters to
-            dogs up to 25 lbs. All dogs must have their 3rd set of shots and be
-            spayed or neutered (by 7 months of age) Book your free orientation
-            and 3 hour trial for your fur baby (Available on Mondays, Fridays
-            and Saturdays). This allows you to tour the facility and your pup to
-            play and explore.
+            All dogs must have their 3rd set of shots and be spayed or neutered
+            (by 7 months of age). Book your free orientation and 3 hour trial
+            for your fur baby (Available on Mondays, Fridays and Saturdays).
+            This allows you to tour the facility and your pup to play and
+            explore.
           </p>
           <h3>Regular Pricing for Daycare (valid for 6 months)</h3>
           <button onClick={() => handlePriceClick()}>
@@ -105,24 +104,7 @@ const Index = () => {
               {showPrice ? 'Hide Pricing Table' : 'Show Pricing Table'}
             </a>
           </button>
-          {showPrice ? <Pricing /> : <h2>{''}</h2>}
-          <footer className="footer">
-            <h3>Why choose us:</h3>
-            <ul>
-              <li>
-                Your dogs are always our top priority. All of your babies will
-                be taken care of by our detail oriented specialists.
-              </li>
-              <li>
-                In order to maintain our service quality, we keep a low ratio of
-                dogs to staff. (Max. 10 dogs per pet specialist)
-              </li>
-              <li>
-                We go for walks 2 to 5 times a day. (maximum of three dogs at a
-                time)
-              </li>
-            </ul>
-          </footer>
+          {showPrice ? <Pricing /> : ''}
         </section>
 
         <section id="grooming" className="main">
