@@ -130,6 +130,7 @@ const Index = () => {
             <div className="content">
               <header className="major">
                 <h2>Grooming</h2>
+                <h3>Yoshiko - Groomer</h3>
               </header>
               <p>
                 Our groomer Yoshiko is a Master Groomer with over 35 years of
