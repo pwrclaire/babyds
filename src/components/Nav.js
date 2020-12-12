@@ -30,11 +30,11 @@ const Nav = props => (
           <a href="#">Training</a>
         </Scroll>
       </li>
-      <li>
+      {/* <li>
         <Scroll type="id" element="review">
           <a href="#">Review</a>
         </Scroll>
-      </li>
+      </li> */}
     </Scrollspy>
   </nav>
 )
