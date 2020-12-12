@@ -97,7 +97,10 @@ const Index = () => {
             This allows you to tour the facility and your pup to play and
             explore.
           </p>
-          <h3>Regular Pricing for Daycare (valid for 6 months)</h3>
+          <h3>
+            Regular Pricing for Daycare (valid for 6 months and returning
+            clients would enjoy the old pricing for 2020!!)
+          </h3>
           <button onClick={() => handlePriceClick()}>
             <a className="icon fa-expand">
               {' '}
