@@ -2,8 +2,7 @@ import { Link } from 'gatsby'
 import React, { useState } from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
-import dog from '../assets/images/dog.jpg'
+import didi from '../assets/images/didi.png'
 import yoshiko from '../assets/images/yoshiko.png'
 import trainer from '../assets/images/trainer.png'
 import Header from '../components/Header'
@@ -47,7 +46,7 @@ const Index = () => {
               </p>
             </div>
             <span className="image">
-              <img src={pic01} alt="" />
+              <img src={didi} alt="" />
             </span>
           </div>
         </section>
