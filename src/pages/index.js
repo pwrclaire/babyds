@@ -96,7 +96,6 @@ const Index = () => {
                 the Japan Dog Grooming School and is a certified Master groomer
                 by the N.D.G.A.A.
                 <br />
-                <br />
                 Yoshiko moved to Canada in 1987 and is fluent in Japanese and
                 English. She specializes in styling small to medium dog breeds,
                 with extensive experience in terrier breeds.
@@ -125,13 +124,13 @@ const Index = () => {
                 in Japan, Hawaii, Australia, and the past ten years in
                 Vancouver.
                 <br />
-                <br />
                 Her credo on grooming is to focus on the comfort and well-being
                 of her furry friends. The part about her career that she enjoys
                 the most is building trust and understanding with both canine
-                and human clients. Kaori specializes in Asian fusion cuts as
-                well as all breeds and sizes.
+                and human clients.
                 <br />
+                Kaori specializes in Asian fusion cuts as well as all breeds and
+                sizes.
                 <br />
                 She owns a sweet-natured Morkie named Brody. Kaori speaks
                 Japanese and English.
