@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import didi from '../assets/images/didi.png'
 import yoshiko from '../assets/images/yoshiko.png'
+import kaori from '../assets/images/kaori.jpg'
 import trainer from '../assets/images/trainer.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
@@ -85,7 +86,9 @@ const Index = () => {
             <div className="content">
               <header className="major">
                 <h2>Grooming</h2>
-                <h3>Yoshiko - Groomer</h3>
+                <h3>
+                  <b>Yoshiko</b>
+                </h3>
               </header>
               <p>
                 Our groomer Yoshiko is a Master Groomer with over 35 years of
@@ -103,6 +106,38 @@ const Index = () => {
               <img src={yoshiko} alt="" />
             </span>
           </div>
+          <div className="spotlight">
+            <span
+              className="image"
+              style={{ marginLeft: 0, marginRight: '4em' }}
+            >
+              <img src={kaori} alt="" />
+            </span>
+            <div className="content">
+              <header className="major">
+                <h3>
+                  <b>Kaori</b>
+                </h3>
+              </header>
+              <p>
+                Kaori has more than fifteen years of experience grooming dogs.
+                She was formally trained in Japan. She has worked as a groomer
+                in Japan, Hawaii, Australia, and the past ten years in
+                Vancouver.
+                <br />
+                <br />
+                Her credo on grooming is to focus on the comfort and well-being
+                of her furry friends. The part about her career that she enjoys
+                the most is building trust and understanding with both canine
+                and human clients. Kaori specializes in Asian fusion cuts as
+                well as all breeds and sizes.
+                <br />
+                <br />
+                She owns a sweet-natured Morkie named Brody. Kaori speaks
+                Japanese and English.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section id="training" className="main">
@@ -110,7 +145,7 @@ const Index = () => {
             <div className="content">
               <header className="major">
                 <h2>Training</h2>
-                <h3>Holly Ovington – Trainer</h3>
+                <h3>Holly Ovington</h3>
               </header>
               <p>
                 Holly has been passionate about dogs from the get go! Holly was

@@ -33,7 +33,7 @@ const Pricing = () => {
           </tr>
         </tbody>
       </table>
-      <h4>25% off for second dog (from same household)</h4>
+      <h4>20% off for second dog (from same household)</h4>
       <table>
         <thead>
           <tr>
