@@ -66,17 +66,19 @@ const Index = () => {
                 Saturdays). This allows you to tour the facility and your pup to
                 play and explore.
               </p>
+              <h2>Pricing</h2>
               <h3>
                 Regular Pricing for Daycare (valid for 6 months and returning
                 clients would enjoy the old pricing for 2020!!)
               </h3>
-              <button onClick={() => handlePriceClick()}>
+              <Pricing />
+              {/* <button onClick={() => handlePriceClick()}>
                 <a className="icon fa-expand">
                   {' '}
                   {showPrice ? 'Hide Pricing Table' : 'Show Pricing Table'}
                 </a>
               </button>
-              {showPrice ? <Pricing /> : ''}
+              {showPrice ?  : ''} */}
             </div>
           </div>
         </section>
