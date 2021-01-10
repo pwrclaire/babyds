@@ -21,6 +21,8 @@ const Index = () => {
     showPrice ? setShowPrice(false) : setShowPrice(true)
   }
 
+  const windowWidth = window.innerWidth
+  console.log('***********', windowWidth)
   return (
     <Layout>
       <Helmet title="Baby D's Home" />
@@ -85,13 +87,15 @@ const Index = () => {
 
         <section id="grooming" className="main">
           <div className="spotlight">
+            <header className="major" style={{ marginBottom: 0 }}>
+              <h2>Grooming</h2>
+            </header>
+          </div>
+          <div className="spotlight">
             <div className="content">
-              <header className="major">
-                <h2>Grooming</h2>
-                <h3>
-                  <b>Yoshiko</b>
-                </h3>
-              </header>
+              <h3>
+                <b>Yoshiko</b>
+              </h3>
               <p>
                 Our groomer Yoshiko is a Master Groomer with over 35 years of
                 combined experience in Japan and Canada. She has graduated from
@@ -107,19 +111,28 @@ const Index = () => {
               <img src={yoshiko} alt="" />
             </span>
           </div>
-          <div className="spotlight">
+          <div
+            className="spotlight"
+            style={
+              windowWidth < 980
+                ? { flexDirection: 'column' }
+                : { flexDirection: 'reverse-column' }
+            }
+          >
             <span
               className="image"
-              style={{ marginLeft: 0, marginRight: '4em' }}
+              style={
+                windowWidth > 980
+                  ? { marginLeft: 0, marginRight: '4em' }
+                  : { marginLeft: 0, marginRight: 0 }
+              }
             >
               <img src={kaori} alt="" />
             </span>
             <div className="content">
-              <header className="major">
-                <h3>
-                  <b>Kaori</b>
-                </h3>
-              </header>
+              <h3>
+                <b>Kaori</b>
+              </h3>
               <p>
                 Kaori has more than fifteen years of experience grooming dogs.
                 She was formally trained in Japan. She has worked as a groomer
@@ -143,11 +156,13 @@ const Index = () => {
 
         <section id="training" className="main">
           <div className="spotlight">
+            <header className="major" style={{ marginBottom: 0 }}>
+              <h2>Training</h2>
+            </header>
+          </div>
+          <div className="spotlight">
             <div className="content">
-              <header className="major">
-                <h2>Training</h2>
-                <h3>Holly Ovington</h3>
-              </header>
+              <h3>Holly Ovington</h3>
               <p>
                 Holly has been passionate about dogs from the get go! Holly was
                 part of 4-H dog clubs from a young age, learning to train and
@@ -167,6 +182,7 @@ const Index = () => {
               <img src={trainer} alt="" />
             </span>
           </div>
+          <br />
           <footer className="footer">
             <h3>Credentials</h3>
             <ul>
