@@ -1,5 +1,5 @@
 import { Link } from 'gatsby'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import didi from '../assets/images/didi.png'
@@ -21,10 +21,24 @@ const Index = () => {
     showPrice ? setShowPrice(false) : setShowPrice(true)
   }
 
-  let windowWidth
-  if (window) {
-    windowWidth = window.innerWidth
+  const [hasRan, setHasRan] = useState(false)
+  const [screenSize, setScreenSize] = useState({
+    height: 0,
+    width: 0,
+  })
+  const updateScreenSize = () => {
+    setScreenSize({ width: window.innerWidth, height: window.innerHeight })
   }
+  useEffect(() => {
+    if (!hasRan) {
+      setHasRan(true)
+      updateScreenSize()
+    }
+    window.addEventListener('resize', updateScreenSize)
+    return () => {
+      window.removeEventListener('resize', updateScreenSize)
+    }
+  }, [screenSize])
 
   return (
     <Layout>
@@ -113,15 +127,15 @@ const Index = () => {
           <div
             className="spotlight"
             style={
-              windowWidth < 980
+              screenSize.width <= 980
                 ? { flexDirection: 'column' }
-                : { flexDirection: 'reverse-column' }
+                : { flexDirection: 'initial' }
             }
           >
             <span
               className="image"
               style={
-                windowWidth > 980
+                screenSize.width > 980
                   ? { marginLeft: 0, marginRight: '4em' }
                   : { marginLeft: 0, marginRight: 0 }
               }
