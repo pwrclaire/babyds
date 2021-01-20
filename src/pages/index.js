@@ -21,7 +21,10 @@ const Index = () => {
     showPrice ? setShowPrice(false) : setShowPrice(true)
   }
 
-  const windowWidth = window && window.innerWidth
+  let windowWidth
+  if (window) {
+    windowWidth = window.innerWidth
+  }
 
   return (
     <Layout>
