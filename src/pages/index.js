@@ -21,8 +21,8 @@ const Index = () => {
     showPrice ? setShowPrice(false) : setShowPrice(true)
   }
 
-  const windowWidth = window.innerWidth
-  console.log('***********', windowWidth)
+  const windowWidth = window && window.innerWidth
+
   return (
     <Layout>
       <Helmet title="Baby D's Home" />
@@ -69,10 +69,6 @@ const Index = () => {
                 play and explore.
               </p>
               <h2>Pricing</h2>
-              <h3>
-                Regular Pricing for Daycare (valid for 6 months and returning
-                clients would enjoy the old pricing for 2020!!)
-              </h3>
               <Pricing />
               {/* <button onClick={() => handlePriceClick()}>
                 <a className="icon fa-expand">
