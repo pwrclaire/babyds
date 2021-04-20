@@ -5,6 +5,7 @@ import { Waypoint } from 'react-waypoint'
 import didi from '../assets/images/didi.png'
 import yoshiko from '../assets/images/yoshiko.png'
 import kaori from '../assets/images/kaori.jpg'
+import saki from '../assets/images/saki.jpg'
 import trainer from '../assets/images/trainer.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
@@ -87,13 +88,6 @@ const Index = () => {
               </p>
               <h2>Pricing</h2>
               <Pricing />
-              {/* <button onClick={() => handlePriceClick()}>
-                <a className="icon fa-expand">
-                  {' '}
-                  {showPrice ? 'Hide Pricing Table' : 'Show Pricing Table'}
-                </a>
-              </button>
-              {showPrice ?  : ''} */}
             </div>
           </div>
         </section>
@@ -164,6 +158,28 @@ const Index = () => {
                 Japanese and English.
               </p>
             </div>
+          </div>
+          <div className="spotlight">
+            <div className="content">
+              <h3>
+                <b>Saki</b>
+              </h3>
+              <p>
+                Saki is a junior groomer, newest member of the Baby D's home and
+                certified by CPPS (Canadian professional pet stylist). She was
+                born, raised in Japan and had dogs around her ever since she was
+                little. Saki owns two Bichon Frise named Bongo and Koto, it was
+                meant to be that they've met because they led her to become a
+                groomer and now she loves what she does!
+                <br />
+                After graduated from grooming school 2020, she keeps learning,
+                continuing educate herself hard and enjoys working with all
+                breeds of dogs.
+              </p>
+            </div>
+            <span className="image">
+              <img src={saki} alt="" />
+            </span>
           </div>
         </section>
 
