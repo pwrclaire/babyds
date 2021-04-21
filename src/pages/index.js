@@ -6,7 +6,6 @@ import didi from '../assets/images/didi.png'
 import yoshiko from '../assets/images/yoshiko.png'
 import kaori from '../assets/images/kaori.jpg'
 import saki from '../assets/images/saki.jpg'
-import trainer from '../assets/images/trainer.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -16,11 +15,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const Index = () => {
   const [stickyNav, setStickyNav] = useState(false)
-  const [showPrice, setShowPrice] = useState(false)
-
-  const handlePriceClick = e => {
-    showPrice ? setShowPrice(false) : setShowPrice(true)
-  }
 
   const [hasRan, setHasRan] = useState(false)
   const [screenSize, setScreenSize] = useState({
@@ -181,50 +175,6 @@ const Index = () => {
               <img src={saki} alt="" />
             </span>
           </div>
-        </section>
-
-        <section id="training" className="main">
-          <div className="spotlight">
-            <header className="major" style={{ marginBottom: 0 }}>
-              <h2>Training</h2>
-            </header>
-          </div>
-          <div className="spotlight">
-            <div className="content">
-              <h3>Holly Ovington</h3>
-              <p>
-                Holly has been passionate about dogs from the get go! Holly was
-                part of 4-H dog clubs from a young age, learning to train and
-                show her own dogs.
-                <br />
-                She volunteered at a local vet clinic and the SPCA. She then
-                began working with dog daycares and dog walking companies.
-                <br />
-                The more she learned, the more she was pulled toward training
-                dogs. She is passionate about helping people and their dogs to
-                thrive. When a dog and their owners work together with patience
-                and positivity the possibilities are endless and magical.
-                <br />
-              </p>
-            </div>
-            <span className="image">
-              <img src={trainer} alt="" />
-            </span>
-          </div>
-          <br />
-          <footer className="footer">
-            <h3>Credentials</h3>
-            <ul>
-              <li>
-                Karen Pryor Academy Dog Trainer Professional Program (KPA-CTP)
-              </li>
-              <li>Fear Free Animal Trainer Certification</li>
-              <li>Walks N' Wags First Aid Certification</li>
-              <li>Lemonade Conference 2020</li>
-              <li>Dog Biz Dog Walking Academy Instructor</li>
-              <li>Catch Canine Trainers Academy Mentor</li>
-            </ul>
-          </footer>
         </section>
 
         {/* <section id="review" className="main special">
