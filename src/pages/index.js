@@ -189,7 +189,7 @@ const Index = () => {
           </a>
           ❤️
           <br />
-          <InstaFeed token={process.env.INSTA_TOKEN} limit={12} />
+          <InstaFeed token={process.env.GATSBY_INSTA_TOKEN} limit={12} />
         </section>
       </div>
     </Layout>
