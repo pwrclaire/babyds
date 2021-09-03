@@ -10,9 +10,9 @@ import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Carousel from '../components/Carousel'
+import InstaFeed from '../components/Insta/InstaFeed'
 import Pricing from '../components/Pricing'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-
 const Index = () => {
   const [stickyNav, setStickyNav] = useState(false)
 
@@ -177,12 +177,20 @@ const Index = () => {
           </div>
         </section>
 
-        {/* <section id="review" className="main special">
+        <section id="instagram" className="main special">
           <header className="major">
-            <h2>We've got people taking</h2>
-            <Carousel />
+            <h2>Instagram</h2>
           </header>
-        </section> */}
+          <a
+            href="https://www.instagram.com/babydshomevancouver"
+            target="_blank"
+          >
+            Follow us in Instagram
+          </a>
+          ❤️
+          <br />
+          <InstaFeed token={process.env.INSTA_TOKEN} limit={12} />
+        </section>
       </div>
     </Layout>
   )

@@ -25,11 +25,11 @@ const Nav = props => (
           <a href="#">Grooming</a>
         </Scroll>
       </li>
-      {/* <li>
-        <Scroll type="id" element="review">
-          <a href="#">Review</a>
+      <li>
+        <Scroll type="id" element="instagram">
+          <a href="#">Instagram</a>
         </Scroll>
-      </li> */}
+      </li>
     </Scrollspy>
   </nav>
 )
