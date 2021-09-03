@@ -49,7 +49,6 @@ const InstaFeeds = ({ token, ...props }) => {
           style={style.carousel}
           showThumbs={false}
           showIndicators={false}
-          dynamicHeight={true}
           infiniteLoop={true}
           stopOnHover={true}
         >
@@ -64,14 +63,14 @@ const InstaFeeds = ({ token, ...props }) => {
 
 const style = {
   outer: {
-    width: '600px',
     maxHeight: '600px',
     margin: '0 auto',
     paddingBottom: '50px',
+    display: 'flex',
   },
   inner: {
     width: '350px',
-    height: '350px',
+    height: '90%',
     margin: '0 auto',
     display: 'flex',
   },
