@@ -87,6 +87,9 @@ const Index = () => {
               </p>
               <h2>Pricing</h2>
               <Pricing />
+              <br />
+              <h2>Looking for Boarding?</h2>
+              <p>Call us to find out more!</p>
             </div>
           </div>
         </section>
