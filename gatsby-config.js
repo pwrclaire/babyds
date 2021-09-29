@@ -3,9 +3,10 @@ require('dotenv').config({
 })
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Stellar by HTML5 UP',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Stellar by HTML5 UP',
+    siteUrl: 'https://babydshome.ca',
+    url: 'https://babydshome.ca',
+    title: "Baby's Home Vancouver - Doggy Daycare & Grooming",
+    description: 'Doggy Daycare & Grooming in Vancouver, BC',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

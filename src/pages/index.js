@@ -13,6 +13,7 @@ import Carousel from '../components/Carousel'
 import InstaFeed from '../components/Insta/InstaFeed'
 import Pricing from '../components/Pricing'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import SEO from '../components/seo'
 const Index = () => {
   const [stickyNav, setStickyNav] = useState(false)
 
@@ -37,23 +38,11 @@ const Index = () => {
 
   return (
     <Layout>
-      <Helmet title="Baby D's Home - Doggy Daycare & Grooming">
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://babydshome.ca/",
-              "@type": "Organization",
-              "url": "https://babydshome.ca/",
-              "name": "Baby D's Home - Doggy Daycare & Doggy Grooming",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "604-829-3521",
-                "contactType": "General Inquiry"
-              }
-            }
-          `}
-        </script>
-      </Helmet>
+      <SEO
+        title="Baby D's Home - Doggy Daycare & Grooming"
+        description="Doggy Daycare & Grooming in Vancouver, BC"
+        image={didi}
+      />
       <Header />
       <Waypoint
         onEnter={() => setStickyNav(false)}

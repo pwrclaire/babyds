@@ -1,6 +1,5 @@
 import React from 'react'
 
-// import logo from '../assets/images/logo.svg'
 import logo from '../assets/images/logo.png'
 
 const Header = props => (
@@ -9,7 +8,7 @@ const Header = props => (
       <img src={logo} alt="" />
     </span>
 
-    <h1>Baby D's Home | Doggy Daycare & Grooming</h1>
+    <h1>Baby D's Home</h1>
     <span>
       Day care: 604-829-3521
       <br />
