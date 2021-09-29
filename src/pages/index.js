@@ -37,7 +37,23 @@ const Index = () => {
 
   return (
     <Layout>
-      <Helmet title="Baby D's Home" />
+      <Helmet title="Baby D's Home - Doggy Daycare & Grooming">
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://babydshome.ca/",
+              "@type": "Organization",
+              "url": "https://babydshome.ca/",
+              "name": "Baby D's Home - Doggy Daycare & Doggy Grooming",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "604-829-3521",
+                "contactType": "General Inquiry"
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <Header />
       <Waypoint
         onEnter={() => setStickyNav(false)}
@@ -61,7 +77,7 @@ const Index = () => {
               </p>
             </div>
             <span className="image">
-              <img src={didi} alt="" />
+              <img src={didi} alt="Doggy Dayare & grooming" />
             </span>
           </div>
         </section>
@@ -109,7 +125,7 @@ const Index = () => {
               </p>
             </div>
             <span className="image">
-              <img src={yoshiko} alt="" />
+              <img src={yoshiko} alt="Doggy Dayare & grooming - Yoshiko" />
             </span>
           </div>
           <div
@@ -128,7 +144,7 @@ const Index = () => {
                   : { marginLeft: 0, marginRight: 0 }
               }
             >
-              <img src={kaori} alt="" />
+              <img src={kaori} alt="Doggy Dayare & grooming - Kaori" />
             </span>
             <div className="content">
               <h3>
@@ -172,7 +188,7 @@ const Index = () => {
               </p>
             </div>
             <span className="image">
-              <img src={saki} alt="" />
+              <img src={saki} alt="Doggy Dayare & grooming - Kaori" />
             </span>
           </div>
         </section>
