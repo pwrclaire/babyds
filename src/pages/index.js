@@ -59,10 +59,9 @@ const Index = () => {
                 <h3>A new place for our furry babies</h3>
               </header>
               <p>
-                Baby D’s Home is a new dog daycare on Broadway near Main st.
-                Vancouver, that’s founded by dog lovers! Our goal is to create a
-                comfortable environment for our furry babies to hang out and
-                socialize with new friends.
+                Baby D's Home is a daycare and Spa for our furry babies. Our
+                goal is to create a comfortable environment for our furry babies
+                to hang out and socialize with new friends.
               </p>
             </div>
             <span className="image">
