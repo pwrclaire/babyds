@@ -79,10 +79,10 @@ const Index = () => {
               <h2>Daycare In take Process: </h2>
               <p>
                 All dogs must have their 3rd set of shots and be spayed or
-                neutered (by 7 months of age). Book your free orientation and 3
-                hour trial for your fur baby (Available on Mondays, Fridays and
-                Saturdays). This allows you to tour the facility and your pup to
-                play and explore.
+                neutered (by 7 months of age). Book your orientation and 3 hour
+                trial for your fur baby by calling us! (Available on Mondays,
+                Fridays and Saturdays). This allows you to tour the facility and
+                your pup to play and explore.
               </p>
               <h2>Pricing</h2>
               <Pricing />
