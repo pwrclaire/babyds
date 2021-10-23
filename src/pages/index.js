@@ -79,10 +79,13 @@ const Index = () => {
               <h2>Daycare In take Process: </h2>
               <p>
                 All dogs must have their 3rd set of shots and be spayed or
-                neutered (by 7 months of age). Book your orientation and 3 hour
-                trial for your fur baby by calling us! (Available on Mondays,
-                Fridays and Saturdays). This allows you to tour the facility and
-                your pup to play and explore.
+                neutered (by 7 months of age). We offer a 3 hour trial ($15) to
+                access and see if your baby likes our facility and how he/she
+                gets alone with the existing members and staffs. Once he/she
+                passes and decides to come back, the $15 trial fee will be
+                discounted when purchasing the first daycare package. Trials are
+                available on Mondays, Fridays and Saturdays. Please call our
+                Daycare team at 604-829-3521 to book!
               </p>
               <h2>Pricing</h2>
               <Pricing />
