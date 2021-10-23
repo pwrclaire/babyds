@@ -81,7 +81,7 @@ const Index = () => {
                 All dogs must have their 3rd set of shots and be spayed or
                 neutered (by 7 months of age). We offer a 3 hour trial ($15) to
                 access and see if your baby likes our facility and how he/she
-                gets alone with the existing members and staffs. Once he/she
+                gets along with the existing members and staffs. Once he/she
                 passes and decides to come back, the $15 trial fee will be
                 discounted when purchasing the first daycare package. Trials are
                 available on Mondays, Fridays and Saturdays. Please call our
