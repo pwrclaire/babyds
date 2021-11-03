@@ -11,9 +11,10 @@ import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Carousel from '../components/Carousel'
 import InstaFeed from '../components/Insta/InstaFeed'
-import Pricing from '../components/Pricing'
+import DayCarePricing from '../components/DayCarePricing'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import SEO from '../components/seo'
+import GroomingPricing from '../components/GroomingPricing'
 const Index = () => {
   const [stickyNav, setStickyNav] = useState(false)
 
@@ -88,7 +89,7 @@ const Index = () => {
                 Daycare team at 604-829-3521 to book!
               </p>
               <h2>Pricing</h2>
-              <Pricing />
+              <DayCarePricing />
               <br />
               <h2>Looking for Boarding?</h2>
               <p>Call us to find out more!</p>
@@ -99,7 +100,7 @@ const Index = () => {
         <section id="grooming" className="main">
           <div className="spotlight">
             <header className="major" style={{ marginBottom: 0 }}>
-              <h2>Grooming</h2>
+              <h2>Grooming and Pricing</h2>
             </header>
           </div>
           <div className="spotlight">
@@ -185,6 +186,14 @@ const Index = () => {
               <img src={saki} alt="Doggy Dayare & grooming - Kaori" />
             </span>
           </div>
+          <h2>Pricing</h2>
+          At the Baby D’s our aim is to make your pet’s visit as pleasant and
+          stress free as possible. Our professional groomer will take every
+          precaution possible and provide gentle, loving care of your pet.
+          <br />
+          <br />
+          <GroomingPricing />
+          <br />
         </section>
 
         <section id="instagram" className="main special">
