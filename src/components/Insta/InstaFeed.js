@@ -10,7 +10,7 @@ const InstaFeeds = ({ token, ...props }) => {
   const [feeds, setFeedsData] = useState([])
   //use useRef to store the latest value of the prop without firing the effect
   const tokenProp = useRef(token)
-  // tokenProp.current = token
+  tokenProp.current = token
   // console.log('TOKEN', token)
   useEffect(() => {
     // this is to avoid memory leaks
