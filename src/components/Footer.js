@@ -42,6 +42,8 @@ const Footer = props => (
         <dd>604-829-3521</dd>
         <dt>Grooming</dt>
         <dd>604-652-6862</dd>
+        <dt>Email</dt>
+        <dd>info@babydshomevancouver.ca</dd>
       </dl>
       <ul className="icons">
         <li>

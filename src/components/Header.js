@@ -13,6 +13,8 @@ const Header = props => (
       Day care: 604-829-3521
       <br />
       Grooming: 604-652-6862
+      <br />
+      Email: info@babydshome.ca
     </span>
   </header>
 )
