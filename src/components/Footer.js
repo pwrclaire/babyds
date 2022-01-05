@@ -57,7 +57,7 @@ const Footer = props => (
       </ul>
     </section>
     <p className="copyright">
-      &copy; Baby D's 2020. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; Baby D's 2022. Design: <a href="https://html5up.net">HTML5 UP</a>.
     </p>
   </footer>
 )
