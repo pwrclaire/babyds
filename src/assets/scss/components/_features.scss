@@ -59,12 +59,22 @@
   }
 }
 
-.carousel li {
-  border: 2px solid grey;
-  color: black;
-  margin: 5px;
+.thumbs-wrapper.axis-vertical {
+  margin: 0 !important;
 }
 
-.carousel ul li .slide {
-  background-color: #ffffff;
+.carousel li {
+  color: black;
+}
+
+.carousel .control-dots {
+  display: none;
+}
+
+.carousel .thumbs {
+  padding: 0;
+}
+
+.carousel .control-arrow {
+  display: none;
 }

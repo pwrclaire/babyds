@@ -9,12 +9,30 @@ import saki from '../assets/images/saki.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
-import Carousel from '../components/Carousel'
+import { Carousel } from 'react-responsive-carousel'
 import InstaFeed from '../components/Insta/InstaFeed'
 import DayCarePricing from '../components/DayCarePricing'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import SEO from '../components/seo'
 import GroomingPricing from '../components/GroomingPricing'
+
+// image imports
+import img1 from '../assets/images/daycare/daycare1.jpeg'
+import img2 from '../assets/images/daycare/daycare2.jpeg'
+import img3 from '../assets/images/daycare/daycare3.jpeg'
+import img4 from '../assets/images/daycare/daycare4.jpeg'
+import img5 from '../assets/images/daycare/daycare5.jpeg'
+import img6 from '../assets/images/daycare/daycare6.jpeg'
+import img7 from '../assets/images/daycare/daycare7.jpeg'
+import img8 from '../assets/images/daycare/daycare8.jpeg'
+import img9 from '../assets/images/daycare/daycare9.jpeg'
+import img10 from '../assets/images/daycare/daycare10.jpeg'
+import img11 from '../assets/images/daycare/daycare11.jpeg'
+import img12 from '../assets/images/daycare/daycare12.jpeg'
+import img13 from '../assets/images/daycare/daycare13.jpeg'
+import img14 from '../assets/images/daycare/daycare14.jpeg'
+import img15 from '../assets/images/daycare/daycare15.jpeg'
+
 const Index = () => {
   const [stickyNav, setStickyNav] = useState(false)
 
@@ -45,11 +63,11 @@ const Index = () => {
         image={didi}
       />
       <Header />
+      <Nav sticky={stickyNav} />
       <Waypoint
         onEnter={() => setStickyNav(false)}
         onLeave={() => setStickyNav(true)}
       ></Waypoint>
-      <Nav sticky={stickyNav} />
 
       <div id="main">
         <section id="intro" className="main special">
@@ -77,7 +95,7 @@ const Index = () => {
               <header className="major">
                 <h2>Day Care</h2>
               </header>
-              <h2>Daycare In take Process: </h2>
+              <h2>Daycare In take Process</h2>
               <p>
                 All dogs must have their 3rd set of shots and be spayed or
                 neutered (by 7 months of age). We offer a 3 hour trial ($15) to
@@ -88,13 +106,76 @@ const Index = () => {
                 available on Mondays, Fridays and Saturdays. Please call our
                 Daycare team at 604-829-3521 to book!
               </p>
+              <h2>A Dogs Day in Daycare</h2>
+              <p>
+                We are located in Central Vancouver and a have a wonderful 1700
+                sqft daycare space waiting for your Dog! This includes a large
+                exercise area with rubber flooring for intense running and
+                playing. Also 2 separate enclosures that are filled with dog
+                beds and couches for your pet to feel like at home.
+              </p>
+              <h2>A typical day in our care</h2>
+              <div>
+                <strong>7am to 10am:</strong> We will start the day making sure your dog will
+                burn off all energy reserves from the long night sleep. they
+                would play fetching, tug and war and plenty of toys to play with
+                their friends.
+                <br />
+                <strong>10am to 12pm:</strong> We will start our first neighborhood walks to the
+                parks and ensure each dog has time to sniff the grass and go to
+                the washroom (because most of them like it better on grass)
+                <br />
+                <strong>12pm to 1pm:</strong> If your dog requires lunch, please make sure you
+                provide their food with their own containers and their names on
+                it. Your dog will be fed individually in a separated area to
+                ensure that every dog will enjoy their lunch in privacy. 
+                <br />
+                <strong>1pm to 3pm:</strong> We will start our second neighborhood walks and let
+                your dog enjoy the nature again. 
+                <br />
+                <strong>3pm to 5pm:</strong> Fun time with games, basic training and nap times. 
+                <br />
+                <strong>5pm to 6:30pm:</strong> Play time again if they still have energy or our
+                favorite cuddle time waiting for parents to pick up. 
+                <br />
+                <i>Please make sure your dog has gone to the washroom prior to
+                drop off as they may not be going out right away upon drop off
+                for a bathroom break</i>
+                <ul>
+                  <li>We have a 1 to 10 staff ratio to dogs which is the best in town!</li>
+                  <li>We stay warm in the winter and cool in the summer</li>
+                  <li>We accept all sizes breeds</li>
+                  <li>We conduct an assessment on all new dogs before daycare approval to make sure all dogs are safe</li>
+                  <li>We do multiples walks a day (1 dog per time) </li>
+                  <li>We feed lunch in a safe separated area, 1 by 1 </li>
+                  <li>Private home boarding (Maximum two dogs at a time)</li>
+                </ul>
+              </div>
+              <Carousel width={screenSize.width <= 980 ? '100%' : '30%'} thumbWidth={30} infiniteLoop autoPlay>
+                <img src={img1} alt="Doggy Dayare & grooming" />
+                <img src={img2} alt="Doggy Dayare & grooming" />
+                <img src={img3} alt="Doggy Dayare & grooming" />
+                <img src={img4} alt="Doggy Dayare & grooming" />
+                <img src={img5} alt="Doggy Dayare & grooming" />
+                <img src={img6} alt="Doggy Dayare & grooming" />
+                <img src={img7} alt="Doggy Dayare & grooming" />
+                <img src={img8} alt="Doggy Dayare & grooming" />
+                <img src={img9} alt="Doggy Dayare & grooming" />
+                <img src={img10} alt="Doggy Dayare & grooming" />
+                <img src={img11} alt="Doggy Dayare & grooming" />
+                <img src={img12} alt="Doggy Dayare & grooming" />
+                <img src={img13} alt="Doggy Dayare & grooming" />
+                <img src={img14} alt="Doggy Dayare & grooming" />
+                <img src={img15} alt="Doggy Dayare & grooming" />
+              </Carousel>
+            </div>
+          </div>
+
               <h2>Pricing</h2>
               <DayCarePricing />
               <br />
               <h2>Looking for Boarding?</h2>
               <p>Call us to find out more!</p>
-            </div>
-          </div>
         </section>
 
         <section id="grooming" className="main">
@@ -216,3 +297,4 @@ const Index = () => {
 }
 
 export default Index
+
