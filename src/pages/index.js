@@ -15,6 +15,8 @@ import DayCarePricing from '../components/DayCarePricing'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import SEO from '../components/seo'
 import GroomingPricing from '../components/GroomingPricing'
+import logo from '../assets/images/logo.png'
+
 
 // image imports
 import img1 from '../assets/images/daycare/daycare1.jpeg'

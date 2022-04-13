@@ -101,16 +101,4 @@
       @include padding(2.5em, 1em, (1em, 0, 0, 0));
     }
   }
-
-  .body.is-loading & {
-    &.alt {
-      > * {
-        opacity: 0;
-      }
-
-      .logo {
-        @include vendor('transform', 'scale(0.8) rotate(-30deg)');
-      }
-    }
-  }
 }
