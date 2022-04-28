@@ -1,6 +1,4 @@
-import { Link } from 'gatsby'
 import React, { useState, useEffect } from 'react'
-import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import didi from '../assets/images/didi.png'
 import yoshiko from '../assets/images/yoshiko.png'
@@ -15,8 +13,6 @@ import DayCarePricing from '../components/DayCarePricing'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import SEO from '../components/seo'
 import GroomingPricing from '../components/GroomingPricing'
-import logo from '../assets/images/logo.png'
-
 
 // image imports
 import img1 from '../assets/images/daycare/daycare1.jpeg'

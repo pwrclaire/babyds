@@ -15,7 +15,7 @@ const Footer = props => (
           <li>Thursday: 7-6:30</li>
           <li>Friday: 7-6:30</li>
           <li>Saturday: 9-5</li>
-          <li>Sunday: By Appointment Only</li>
+          <li>Sunday: Closed</li>
         </ul>
           </th>
           <th>
@@ -27,7 +27,7 @@ const Footer = props => (
           <li>Thursday: 9-5</li>
           <li>Friday: 9-5</li>
           <li>Saturday: 9-5</li>
-          <li>Sunday: By Appointment Only</li>
+          <li>Sunday: Closed</li>
         </ul>
           </th>
         </tr>
