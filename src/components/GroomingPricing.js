@@ -15,16 +15,16 @@ const GroomingPricing = () => {
           <tr>
             <td>Mini Dogs</td>
             <td>$45+</td>
-            <td>$75+</td>
-          </tr>
-          <tr>
-            <td>Small Dogs</td>
-            <td>$50+</td>
             <td>$80+</td>
           </tr>
           <tr>
+            <td>Small Dogs</td>
+            <td>$55+</td>
+            <td>$85+</td>
+          </tr>
+          <tr>
             <td>Medium Dogs</td>
-            <td>$60+</td>
+            <td>$65+</td>
             <td>$90+</td>
           </tr>
           <tr>

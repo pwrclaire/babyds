@@ -2,7 +2,7 @@
   "name": "babyd",
   "description": "babyd",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Babys Home Vancouver",
   "dependencies": {
     "@toast-ui/react-calendar": "^1.0.5",
     "dotenv": "^10.0.0",

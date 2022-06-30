@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, version } from 'react'
 import { Waypoint } from 'react-waypoint'
 import didi from '../assets/images/didi.png'
 import yoshiko from '../assets/images/yoshiko.png'
 import kaori from '../assets/images/kaori.jpg'
 import saki from '../assets/images/saki.jpg'
+import veronica from '../assets/images/veronica.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -114,42 +115,59 @@ const Index = () => {
               </p>
               <h2>A typical day in our care</h2>
               <div>
-                <strong>7am to 10am:</strong> We will start the day making sure your dog will
-                burn off all energy reserves from the long night sleep. they
-                would play fetching, tug and war and plenty of toys to play with
-                their friends.
+                <strong>7am to 10am:</strong> We will start the day making sure
+                your dog will burn off all energy reserves from the long night
+                sleep. they would play fetching, tug and war and plenty of toys
+                to play with their friends.
                 <br />
-                <strong>10am to 12pm:</strong> We will start our first neighborhood walks to the
-                parks and ensure each dog has time to sniff the grass and go to
-                the washroom (because most of them like it better on grass)
+                <strong>10am to 12pm:</strong> We will start our first
+                neighborhood walks to the parks and ensure each dog has time to
+                sniff the grass and go to the washroom (because most of them
+                like it better on grass)
                 <br />
-                <strong>12pm to 1pm:</strong> If your dog requires lunch, please make sure you
-                provide their food with their own containers and their names on
-                it. Your dog will be fed individually in a separated area to
-                ensure that every dog will enjoy their lunch in privacy. 
+                <strong>12pm to 1pm:</strong> If your dog requires lunch, please
+                make sure you provide their food with their own containers and
+                their names on it. Your dog will be fed individually in a
+                separated area to ensure that every dog will enjoy their lunch
+                in privacy. 
                 <br />
-                <strong>1pm to 3pm:</strong> We will start our second neighborhood walks and let
-                your dog enjoy the nature again. 
+                <strong>1pm to 3pm:</strong> We will start our second
+                neighborhood walks and let your dog enjoy the nature again. 
                 <br />
-                <strong>3pm to 5pm:</strong> Fun time with games, basic training and nap times. 
+                <strong>3pm to 5pm:</strong> Fun time with games, basic training
+                and nap times. 
                 <br />
-                <strong>5pm to 6:30pm:</strong> Play time again if they still have energy or our
-                favorite cuddle time waiting for parents to pick up. 
+                <strong>5pm to 6:30pm:</strong> Play time again if they still
+                have energy or our favorite cuddle time waiting for parents to
+                pick up. 
                 <br />
-                <i>Please make sure your dog has gone to the washroom prior to
-                drop off as they may not be going out right away upon drop off
-                for a bathroom break</i>
+                <i>
+                  Please make sure your dog has gone to the washroom prior to
+                  drop off as they may not be going out right away upon drop off
+                  for a bathroom break
+                </i>
                 <ul>
-                  <li>We have a 1 to 10 staff ratio to dogs which is the best in town!</li>
+                  <li>
+                    We have a 1 to 10 staff ratio to dogs which is the best in
+                    town!
+                  </li>
                   <li>We stay warm in the winter and cool in the summer</li>
                   <li>We accept all sizes breeds</li>
-                  <li>We conduct an assessment on all new dogs before daycare approval to make sure all dogs are safe</li>
+                  <li>
+                    We conduct an assessment on all new dogs before daycare
+                    approval to make sure all dogs are safe
+                  </li>
                   <li>We do multiples walks a day (1 dog per time) </li>
                   <li>We feed lunch in a safe separated area, 1 by 1 </li>
                   <li>Private home boarding (Maximum two dogs at a time)</li>
                 </ul>
               </div>
-              <Carousel width={screenSize.width <= 980 ? '100%' : '30%'} thumbWidth={30} infiniteLoop autoPlay>
+              <Carousel
+                width={screenSize.width <= 980 ? '100%' : '30%'}
+                thumbWidth={30}
+                infiniteLoop
+                autoPlay
+              >
                 <img src={img1} alt="Doggy Dayare & grooming" />
                 <img src={img2} alt="Doggy Dayare & grooming" />
                 <img src={img3} alt="Doggy Dayare & grooming" />
@@ -169,11 +187,11 @@ const Index = () => {
             </div>
           </div>
 
-              <h2>Pricing</h2>
-              <DayCarePricing />
-              <br />
-              <h2>Looking for Boarding?</h2>
-              <p>Call us to find out more!</p>
+          <h2>Pricing</h2>
+          <DayCarePricing />
+          <br />
+          <h2>Looking for Boarding?</h2>
+          <p>Call us to find out more!</p>
         </section>
 
         <section id="grooming" className="main">
@@ -249,12 +267,12 @@ const Index = () => {
                 <b>Saki</b>
               </h3>
               <p>
-                Saki is a junior groomer, newest member of the Baby D's home and
-                certified by CPPS (Canadian professional pet stylist). She was
-                born, raised in Japan and had dogs around her ever since she was
-                little. Saki owns two Bichon Frise named Bongo and Koto, it was
-                meant to be that they've met because they led her to become a
-                groomer and now she loves what she does!
+                Saki is one of the groomers at Baby D's home and certified by
+                CPPS (Canadian professional pet stylist). She was born, raised
+                in Japan and had dogs around her ever since she was little. Saki
+                owns two Bichon Frise named Bongo and Koto, it was meant to be
+                that they've met because they led her to become a groomer and
+                now she loves what she does!
                 <br />
                 After graduated from grooming school 2020, she keeps learning,
                 continuing educate herself hard and enjoys working with all
@@ -262,8 +280,43 @@ const Index = () => {
               </p>
             </div>
             <span className="image">
-              <img src={saki} alt="Doggy Dayare & grooming - Kaori" />
+              <img src={saki} alt="Doggy Dayare & grooming - Saki" />
             </span>
+          </div>
+          <div
+            className="spotlight"
+            style={
+              screenSize.width <= 980
+                ? { flexDirection: 'column' }
+                : { flexDirection: 'initial' }
+            }
+          >
+            <span
+              className="image"
+              style={
+                screenSize.width > 980
+                  ? { marginLeft: 0, marginRight: '4em' }
+                  : { marginLeft: 0, marginRight: 0 }
+              }
+            >
+              <img src={veronica} alt="Doggy Dayare & grooming - Veronica" />
+            </span>
+            <div className="content">
+              <h3>
+                <b>Veronica</b>
+              </h3>
+              <p>
+                With over 16 years of grooming experience Veronica started her
+                animal career in Mexico City.
+                <br />
+                She has always had a passion for dogs since childhood. In her
+                past she has also worked as a veterinarian assistant for 4
+                years.
+                <br />
+                Her goal is to see every dog and dog owner go home happy. She is
+                the proud dog parent of two amazing chihuahuas.
+              </p>
+            </div>
           </div>
           <h2>Pricing</h2>
           At the Baby D’s our aim is to make your pet’s visit as pleasant and
@@ -295,4 +348,3 @@ const Index = () => {
 }
 
 export default Index
-
