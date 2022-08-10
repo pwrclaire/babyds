@@ -94,6 +94,8 @@ const Index = () => {
               <header className="major">
                 <h2>Day Care</h2>
               </header>
+              <a href='https://www.pawsadmin.com/api/booking/bookingContainer.html?key=BT7MWEY3OZ' style={{ borderBottom: 'none'}}><button className='custom-btn btn-1'>Book now</button></a>
+              
               <h2>Daycare In take Process</h2>
               <p>
                 All dogs must have their 3rd set of shots and be spayed or
