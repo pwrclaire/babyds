@@ -5,6 +5,7 @@ import yoshiko from '../assets/images/yoshiko.png'
 import kaori from '../assets/images/kaori.jpg'
 import saki from '../assets/images/saki.jpg'
 import veronica from '../assets/images/veronica.jpg'
+import lee from '../assets/images/lee.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -94,8 +95,13 @@ const Index = () => {
               <header className="major">
                 <h2>Day Care</h2>
               </header>
-              <a href='https://www.pawsadmin.com/api/booking/bookingContainer.html?key=BT7MWEY3OZ' style={{ borderBottom: 'none'}}><button className='custom-btn btn-1'>Book now</button></a>
-              
+              <a
+                href="https://www.pawsadmin.com/api/booking/bookingContainer.html?key=BT7MWEY3OZ"
+                style={{ borderBottom: 'none' }}
+              >
+                <button className="custom-btn btn-1">Book now</button>
+              </a>
+
               <h2>Daycare In take Process</h2>
               <p>
                 All dogs must have their 3rd set of shots and be spayed or
@@ -319,6 +325,30 @@ const Index = () => {
                 the proud dog parent of two amazing chihuahuas.
               </p>
             </div>
+          </div>
+          <div className="spotlight">
+            <div className="content">
+              <h3>
+                <b>Lee</b>
+              </h3>
+              <p>
+                Lee has over 16 years of grooming experience and is the epiphany
+                of a true passionate dog groomer.
+                <br />
+                Lee combines a true love for
+                dogs care and an artistic approach to pet styling and personable
+                dog grooming. She has mastered the patience in handling very
+                difficult and/or nervous dogs with a soothing energy to bring
+                some calmness to the overall grooming experience. Lee takes much
+                pride in her professional service and provides a high level of
+                personal care and attention to each client. Lee has her loyal
+                companion Roxy a Bedlington terrier. She also speaks Mandarin
+                and Cantonese.
+              </p>
+            </div>
+            <span className="image">
+              <img src={lee} alt="Doggy Dayare & grooming - Saki" />
+            </span>
           </div>
           <h2>Pricing</h2>
           At the Baby D’s our aim is to make your pet’s visit as pleasant and
