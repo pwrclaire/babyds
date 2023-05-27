@@ -167,7 +167,6 @@ const Index = () => {
                   </li>
                   <li>We do multiples walks a day (1 dog per time) </li>
                   <li>We feed lunch in a safe separated area, 1 by 1 </li>
-                  <li>Private home boarding (Maximum two dogs at a time)</li>
                 </ul>
               </div>
               <Carousel
@@ -197,9 +196,9 @@ const Index = () => {
 
           <h2>Pricing</h2>
           <DayCarePricing />
-          <br />
+          {/* <br />
           <h2>Looking for Boarding?</h2>
-          <p>Call us to find out more!</p>
+          <p>Call us to find out more!</p> */}
         </section>
 
         <section id="grooming" className="main">
