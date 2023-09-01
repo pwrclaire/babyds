@@ -154,17 +154,14 @@ const Index = () => {
                   for a bathroom break
                 </i>
                 <ul>
-                  <li>
-                    We have a 1 to 10 staff ratio to dogs which is the best in
-                    town!
-                  </li>
+                  <li>We have the best staff to dog ratio in town!</li>
                   <li>We stay warm in the winter and cool in the summer</li>
                   <li>We accept all sizes breeds</li>
                   <li>
                     We conduct an assessment on all new dogs before daycare
                     approval to make sure all dogs are safe
                   </li>
-                  <li>We do multiples walks a day (1 dog per time) </li>
+                  <li>We do multiples walks a day</li>
                   <li>We feed lunch in a safe separated area, 1 by 1 </li>
                 </ul>
               </div>

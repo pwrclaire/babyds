@@ -25,7 +25,7 @@ const DayCarePricing = () => {
           </tr>
           <tr>
             <td>20 Day Package $760 ($38) </td>
-            <td>20 Day Package $250 ($26)</td>
+            <td>20 Day Package $520 ($26)</td>
           </tr>
         </tbody>
       </table>
